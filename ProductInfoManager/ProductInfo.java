@@ -1,5 +1,6 @@
-package Harjoitukset.Harjoitus_3;
+package ProductInfoManager;
 
+// Save products by initializing each Product object in the array.
 public class ProductInfo {
     static void saveProducts(Product [] products) {
         for (int i = 0; i < products.length; i++) {
@@ -8,6 +9,7 @@ public class ProductInfo {
         printProducts(products);
     }
 
+    // Print details of all products in the array.
     public static void printProducts(Product [] products) {
         for (int i = 0; i < products.length; i++) {
             System.out.println("\nName: " + products[i].getName());
