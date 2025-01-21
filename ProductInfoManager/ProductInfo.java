@@ -1,6 +1,6 @@
 package ProductInfoManager;
 
-// Save products by initializing each Product object in the array.
+// Save products by initializing each Product object in the array
 public class ProductInfo {
     static void saveProducts(Product [] products) {
         for (int i = 0; i < products.length; i++) {
@@ -9,7 +9,7 @@ public class ProductInfo {
         printProducts(products);
     }
 
-    // Print details of all products in the array.
+    // Print details of all products in the array
     public static void printProducts(Product [] products) {
         for (int i = 0; i < products.length; i++) {
             System.out.println("\nName: " + products[i].getName());
@@ -17,5 +17,4 @@ public class ProductInfo {
             System.out.println("Description: " + products[i].getDescription());
         }
     }
-    
 }
