@@ -5,28 +5,47 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner lukija = new Scanner(System.in);
-        Product prod = new Product();
+        Scanner scanner = new Scanner(System.in);
 
-        // Give product name
-        System.out.println("\nAnna tuotteen nimi > ");
-        String nimi = lukija.nextLine();
-        prod.setName(nimi);
+        // Give product count
+        System.out.println("How many products would you like to add? > ");
+        int productCount = scanner.nextInt();
+        scanner.nextLine(); // Remove line break
 
-        // Give product price
-        System.out.println("\nAnna tuotteen hinta > ");
-        double hinta = lukija.nextDouble();
-        lukija.nextLine(); // Removes line break
-        prod.setPrice(hinta);
+        // Create an array to store the products
+        Product[] products = new Product[productCount];
 
-        // Give product description
-        System.out.println("\nAnna tuotteen kuvaus > ");
-        String kuvaus = lukija.nextLine();
-        prod.setDescription(kuvaus);
+        // Loop to input product details
+        for (int i = 0; i < productCount; i++) {
+            System.out.println("\nEnter product details (" + (i + 1) + "/" + productCount + "):");
 
-        ProductInfo.printProducts(new Product[] {prod});
+            Product prod = new Product();
 
-        lukija.close();
+            // Give product name
+            System.out.println("Enter product name > ");
+            String name = scanner.nextLine();
+            prod.setName(name);
+
+            // Give product price
+            System.out.println("Enter product price > ");
+            double price = scanner.nextDouble();
+            scanner.nextLine(); // Removes line break
+            prod.setPrice(price);
+
+            // Give product description
+            System.out.println("Enter product description > ");
+            String description = scanner.nextLine();
+            prod.setDescription(description);
+
+            // Save the product to the array
+            products[i] = prod;
+        }
+
+        // Print all products
+        ProductInfo.printProducts(products);
+
+        // Close the scanner
+        scanner.close();
     }
-    
 }
+
