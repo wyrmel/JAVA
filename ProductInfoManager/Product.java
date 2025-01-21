@@ -1,39 +1,39 @@
-package Harjoitukset.Harjoitus_3;
+package ProductInfoManager;
 
 public class Product {
-    // Tuotteen nimi
+    // Product name
     private String name;
-    // Tuotteen hinta
+    // Product price
     private double price;
-    // Tuotteen kuvaus
+    // Product description
     private String description;
 
-    // Asettaa tuotteelle uuden nimen
+    // Gives product a new name
     public void setName(String name) {
         this.name = name;
     }
 
-    // Asettaa tuotteelle uuden hinnan
+    // Gives product a new price
     public void setPrice(double price) {
         this.price = price;
     }
 
-    // Asettaa tuotteelle uuden kuvauksen
+    // Gives product a new description
     public void setDescription(String description) {
         this.description = description;
     }
 
-    // Palauttaa tuotteen nimen
+    // Returns product name
     public String getName() {
         return name;
     }
 
-    // Palauttaa tuotteen hinnan
+    // Returns product price
     public double getPrice() {
         return price;
     }
 
-    // Palauttaa tuotteen kuvauksen
+    // Returns product description
     public String getDescription() {
         return description;
     }
