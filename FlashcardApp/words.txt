@@ -1,0 +1,65 @@
+työskennellä, arbeta (-ade -at)
+kehittynyt, avancerad
+tarvita, behövä (hövde hövt)
+kuva, bild (3)
+binääri, binär
+pilkkoa, bryta (bröt brutit) ner
+pomo, chef (3)
+tietokone, dator (3)
+tietokoneohjelma, datorprogram (5)
+useimmat, de flesta
+osa, del (2)
+suoraan, direkt
+ajuri, drivrutin (3)
+tulla esiin, dyka (dök dykit) upp
+sen jälkeen, därefter
+tehokas, effektiv
+suuri määrä jtk, en stör mängd ngt
+yksinkertainen, enkel
+edistää, främja (-ade -at)
+toimia, fungera (-ade -at)
+parantaa, förbättra (-ade -at)
+ensin, först
+ymmärtää, förstå (stod stått)
+näytönohjain, grafikkort (5)
+pohjimmiltaan, i grund och botten
+ohje, instruktion (3)
+integroitu, integrerad
+vuorovaikuttaa, interagera (-ade -at)
+koodi, kod (3)
+komento, kommando (4)
+kommunikoida, kommunicera (-ade -at)
+kääntäminen, kompilering (2)
+monimutkainen, komplicerad
+kuulostaa, låta (lät låtit)
+oppia, lära (lärde lärt) sig
+ratkaista, lösa (löste löst)
+laitteisto, maskinvara (-n)
+ruokalaji, maträtt (3)
+matematiikkatehtävä, matteproblem (5)
+erilainen, olik
+välittömästi, omedelbart
+käyttöjärjestelmä, operativsystem (5)
+järjestää, organisera (-ade -at)
+tarkka, precis
+prosessi, process (3)
+ohjelma, program (5)
+ohjelmointikieli, programmeringsspråk (5)
+vaikuttaa, påverka (-ade -at)
+resepti, recept (5)
+säännöllisesti, regelbundet
+yhteiskunta, samhälle (4)
+luoda, skapa (-ade -at)
+tulostin, skrivare (5b)
+tyyppi, slag (5)
+sujuva, smidig
+lajitella, sortera (-ade -at)
+säästää, spara (-ade -at)
+peli, spel (5)
+kieli, språk (5)
+jännittävä, spännande
+askel, steg (5)
+järjestelmä, system (5)
+varmistaa, säkerställa (ställde ställt)
+jnk ansiosta, tack vara ngt
+tekniikka, teknik (3)
